@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo formulario fieldset</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Datos personales:</legend>
+      Nombre:<input type="text" name="nombre"><br/>
+      Apellidos:<input type="text" name="apellido"><br/>
+      Edad:<input type="number" name="edad">
+    </fieldset>
+    <fieldset>
+      <legend>Datos de contacto:</legend>
+      Email:<input type="email" name="email"><br/>
+      Teléfono:<input type="tel" name="telf" pattern="[0-9]{9}">
+    </fieldset>
+    <input type="submit" value="ENVIAR">
+  </form>
+</body>
+</html>
