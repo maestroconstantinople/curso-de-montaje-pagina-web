@@ -1,0 +1,10 @@
+body{background: url(../imagenes/fondo.png) repeat;
+	font-size: 16px;
+	font-family: Verdana;
+	color: white;
+	height:100%; /*Siempre es necesario cuando trabajamos con alturas*/
+}
+	
+a{
+	color: yellow;
+}
