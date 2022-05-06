@@ -6,4 +6,59 @@ https://drive.google.com/drive/folders/1XbJbCi60TItINDXUgmSVEIPl3u4P5Kai?usp=sha
 
 Enlace Git Adrián:
 https://github.com/adiez10/cursoWebGorbea
+http://localhost/phpmyadmin/index.php?route=/sql&db=correos_spain&table=camioneros&pos=0
 
+SIGNIFICATION (ID)=IDENTIFICACION UNICO.SE LE RECONOCER COMO(PRYMARY KEY).(FOREIGN KEY) ES COMO INDENTIFICA EL ID USUARIO EN COLUMNA.
+
+({N}a{N})=a (ID) 1 USUARIO EN MAS COLUMNA
+
+UNA FORMA DE UNIR TABLA ES CREAR UNA TABLA ENTRE MEDIA PARA UNIR (DOS O MAS TABLA).CON ID DE CADA COLUMNA
+
+(MYSQL) ES UN DISPOSITIVO PARA CREAR UNA BASEDATO=ES UNA TABLA PRINCIPAL Y DENTRO AHI (DIFERENTES TABLAS)EN LAS TABLAS AHI QUE(CREATE DATABASE)ES CREAR UNA TABLA DE DATOS MUY IMPORTANTES CREERLA,SEGUIR DE (SHOW DATABASES)=A MONSTRAR DATOS EN LA BASE
+
+(INT) Son NUMEROS ENTERO SIN COMA
+
+(FLOAT) Son NUMERO ENTERO CON COMA
+
+(VARCHAR) son parlabra y (CANTIDAD LETRAS) 
+
+INSERT INTO{tabla(basedato)}VALUES{dato tabla}
+
+modify una tabla ES(AFTER TABLA y el NOMBRE DE LA TABLA)seguir de ('MODIFY COLUMNAS'{id int}'auto_increment);
+
+NOT NULL=a (obligatorio)
+
+(--) SIGUE PARA ANADIR COMMENTARIO 
+  
+(SELCET *)nos va a permitir selecciona los datos que queremos en tabla.
+(SELECT *seguido{FROM}va el nombre principal de la tabla,(WHERE va COLUMNAS de USUARIO y sus contenido).
+
+(AN)es anadir otro elemento de la tabla a select.
+
+
+(SET significa buscar).
+
+UPDATE{va nombre tabla principal}
+
+SET{nombre columnas(='')}
+
+WHERE{nombre id columnas(= > O '')}.
+  
+Para Bora algo dentro de tabla(DELETE FROM {nombre tabla}WHERE{nombre id columnas(='';) }.
+
+{CREATE
+
+READ(es select en una tabla)
+
+(UPDATE sinifica ormenta)
+
+(OR)para ilegir la cantidad {igual o inferior descript}
+
+(BETWEEN) para eligir una cantidat {inferior o superior descript en la tabla}
+
+(AN) Y
+
+(LIKE) va con % {de 1 a 10}
+}
+
+WHERE
