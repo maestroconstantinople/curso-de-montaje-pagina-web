@@ -62,3 +62,5 @@ READ(es select en una tabla)
 }
 
 WHERE
+
+REQUIRE(sirve para subir contenido)
